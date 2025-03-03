@@ -1,0 +1,11 @@
+numpy
+scipy
+websocket-client
+request
+pyaudio
+RealtimeSTT
+ollama
+tqdm
+faster-whisper
+PyYAML
+transformers
