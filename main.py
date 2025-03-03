@@ -21,9 +21,9 @@ def main() -> None:
     """
     # 기본 설정 로드
     config = Config()
-    
+
     # 설정 오버라이드 (필요시 환경변수나 설정 파일에서 로드)
-    
+
     # 파이프라인 시작
     pipeline = AIVTubePipeline(config)
     try:

@@ -37,4 +37,3 @@ class Config:
     blink_min_interval: float = 3.0
     blink_max_interval: float = 6.0
     mouth_update_interval: float = 0.05
-    tts_chunk_size: int = 40  # 이 길이만큼 모으면 TTS 요청

@@ -175,8 +175,7 @@ class AIVTubePipeline:
                 token_buffer += token
 
                 # 길이나 구두점 단위로 chunk를 잘라 TTS 큐에 넣음
-                if (len(token_buffer) > self.config.tts_chunk_size or 
-                    token.endswith(('.', '!', '?', ':', ';'))):
+                if token.endswith(('.', '!', '?', ':', ';')):
                     if token_buffer.strip():
                         self.tts_queue.put(token_buffer)
                         print(f"[TTS 큐 추가] {token_buffer}")
