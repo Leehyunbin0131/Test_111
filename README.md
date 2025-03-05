@@ -189,8 +189,3 @@ MIT 라이선스로 배포됩니다. 자세한 내용은 LICENSE 파일을 참�
 - [Ollama 문서](https://ollama.ai/)
 - [GPT-SoVITS 문서](https://github.com/RVC-Boss/GPT-SoVITS)
 - [RealtimeSTT 문서](https://github.com/RealtimeSTT)
-
-## 📞 연락처
-문의사항은 [이메일 주소] 또는 이슈 트래커를 통해 연락해주세요.
-
-**Made with ❤️ by [당신의 이름/팀명]**
